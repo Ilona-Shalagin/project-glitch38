@@ -1,0 +1,75 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    background-color: rgba(251,248,249,0.9);
+    font-family: 'Montserrat', sans-serif;
+    padding:20px;
+    border:3px solid black;
+    font-size: 60px;
+}
+body{
+    background-image:url(https://cdn.glitch.com/58b7d1c6-826e-4574-a365-90f86476a827%2Fsanta.jpeg?v=1632703349979);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.christmas{
+    background-color: rgba(251,248,249,0.82);
+    height: 300px;
+    width:200px;
+    margin-top: 50px;
+    border:3px solid black;
+}
+.block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;  
+}
+.days, .hours,.minutes,.seconds{
+    font-family: 'Montserrat', sans-serif; 
+}
+.red{
+    font-size: 60px;
+    border: none;
+    font-family: 'Staatliches', cursive;
+    color: red;
+}
+#myButton{
+    margin-left: 100px;
+    border: none;
+    
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index:-1;
+}
+
+
+
+@media all and (max-width: 800px ) {
+    h1{
+        font-size:40px;
+    }
+}
+
+@media all and (max-width: 500px ) {
+    h1{
+        font-size:30px;
+    }
+}
+
